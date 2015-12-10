@@ -4,7 +4,7 @@
  <img alt="babel" src="https://raw.githubusercontent.com/babel/logo/master/babel.png" width="250">
  <img alt="browserify" src="http://browserify.org/images/wizard_hat_blue.png" width="150">
 </p>
-A Yeoman generator for [Gulp Babelify Starter Kit](https://github.com/HenriqueLimas/gulp-babelify-starter-kit);
+A Yeoman generator for [Gulp Babelify Starter Kit](https://github.com/HenriqueLimas/gulp-babelify-starter-kit)
 
 ## Getting Started
 

@@ -37,7 +37,7 @@ module.exports = generators.Base.extend({
     }
   },
   configuring: function() {
-    this._createFiles('.gitignore');
+    this._createFiles('__gitignore');
     this._createFiles('package.json');
     this._createFiles('.babelrc');
     this._createFiles('.eslintrc');
@@ -91,7 +91,7 @@ module.exports = generators.Base.extend({
   _createFiles: function (path) {
     this.fs.copyTpl(
       this.templatePath(path),
-      this.destinationPath(this.projectOptions.name + '/' + path),
+      this.destinationPath(this.projectOptions.name + '/' + path.replace('__', '.')),
       this.projectOptions
     );
   },

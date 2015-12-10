@@ -1,0 +1,38 @@
+{
+  "name": "generator-gulp-babelify",
+  "version": "0.1.0",
+  "description": "Yeoman generator for Gulp and Browserify",
+  "author": {
+    "name": "Henrique Limas",
+    "email": "henrique.ramos.limas@gmail.com",
+    "url": "henriquelimas.github.io"
+  },
+  "license": "MIT",
+  "main": "app/index.js",
+  "files": [
+    "app"
+  ],
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha --recursive"
+  },
+  "keywords": [
+    "yeoman-generator",
+    "scaffold",
+    "front-end",
+    "babel",
+    "browserify",
+    "babelify",
+    "es6",
+    "es2015",
+    "gulp"
+  ],
+  "dependencies": {
+    "yeoman-generator": "^0.21.1"
+  },
+  "devDependencies": {
+    "mocha": "^2.3.4"
+  }
+}

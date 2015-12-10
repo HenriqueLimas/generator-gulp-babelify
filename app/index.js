@@ -7,7 +7,10 @@ module.exports = generators.Base.extend({
     this.projectOptions = {};
 
     this.option('skip-install');
-    this.option('skip-serve');
+    this.option('skip-serve', {
+      desc: 'Do not automatically run server',
+      defaults: false
+    });
 
     this.argument('appname', {
       type: String,

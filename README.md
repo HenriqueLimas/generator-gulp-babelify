@@ -1,4 +1,4 @@
-# generator-gulp-babelify
+# generator-gulp-babelify [![Build Status](https://travis-ci.org/HenriqueLimas/generator-gulp-babelify.svg?branch=master)](https://travis-ci.org/HenriqueLimas/generator-gulp-babelify)
 <p>
  <img alt="gulp" src="https://raw.githubusercontent.com/gulpjs/artwork/master/gulp-2x.png" width="60">
  <img alt="babel" src="https://raw.githubusercontent.com/babel/logo/master/babel.png" width="250">
